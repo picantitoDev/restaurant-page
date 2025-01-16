@@ -1,7 +1,7 @@
 import ramenImage from "./img/rb_2151172098.png";
 
 export function home() {
-    const mainContent = document.querySelector("#content");
+    let mainContent = document.querySelector("#content");
     mainContent.innerHTML = `        <div class="container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row">
             <!-- Text Section -->
             <div class="mb-14 lg:mb-0 lg:w-1/2 text-center lg:text-left">
